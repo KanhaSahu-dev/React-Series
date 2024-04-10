@@ -10,10 +10,10 @@ function App() {
   }
   return (
     <div className="w-full h-screen duration-200 bg-black relative flex justify-center" style={{backgroundColor:color}}>
-      <div className='absolute bottom-10 rounded-lg bg-white '>
-      <button className="bg-white outline-none px-4 py-1 rounded-full shadow-lg text-black border-gray-950" onClick={()=>changeColor('red')}>test</button>
-      <button className="bg-white outline-none px-4 py-1 rounded-full shadow-lg text-black border-black" onClick={()=>changeColor('green')}>test</button>
-      <button className="bg-white outline-none px-4 py-1 rounded-full shadow-lg text-black border-black" onClick={()=>changeColor('blue')}>test</button>
+      <div className='absolute bottom-10 rounded-lg bg-white w-72 flex justify-evenly'>
+      <button className=" px-4 py-1   bg-red-500  rounded-full shadow-lg text-black" onClick={()=>changeColor('red')}>test</button>
+      <button className=" px-4 py-1   bg-green-500  rounded-full shadow-lg text-black" onClick={()=>changeColor('green')}>test</button>
+      <button className=" px-4 py-1   bg-blue-500  rounded-full shadow-lg text-black" onClick={()=>changeColor('blue')}>test</button>
       </div>
     </div> 
   )
