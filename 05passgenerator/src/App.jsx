@@ -35,7 +35,7 @@ function App() {
 
   const copyToClipBoard = ()=>{
     window.navigator.clipboard.writeText(password);
-    passwordRef.current.select()App;
+    passwordRef.current.select();
   }
   return (
     <>
