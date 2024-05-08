@@ -15,6 +15,6 @@ export default Github
 // https://api.github.com/users/hiteshchoudhary
 
 export  let githubfileinfo = async ()=>{
-  const res = await fetch('https://api.github.com/users/hiteshchoudhary');
+  const res = await fetch('https://api.github.com/users/reflex-dev');
   return res.json();
 }
